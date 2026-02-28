@@ -63,7 +63,10 @@ export const fetch = async (
                 return { ...reslt, nairaRate }
             }
         })
-        if (result?.edges) result.edges = newEdge
+        if (result?.edges) {
+            console.log(newEdge, "NEW eDGE");
+            result.edges = newEdge
+        }
     }
 
         return res

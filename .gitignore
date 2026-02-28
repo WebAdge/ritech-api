@@ -1,5 +1,4 @@
 node_modules
-.env
 yarn-error.log
 
 build
@@ -9,3 +8,4 @@ info.log
 error.log
 **.log**
 **.log
+config.bat
